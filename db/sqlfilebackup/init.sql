@@ -1,0 +1,14 @@
+CREATE DATABASE IF NOT EXISTS users;
+USE users;
+CREATE USER 'root'@'%' IDENTIFIED BY 'root';
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%';
+
+CREATE DATABASE IF NOT EXISTS contacts;
+USE contacts;
+CREATE USER 'root'@'%' IDENTIFIED BY 'root';
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%';
+
+CREATE DATABASE IF NOT EXISTS profiles;
+USE profiles;
+CREATE USER 'root'@'%' IDENTIFIED BY 'root';
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%';
